@@ -1,0 +1,6 @@
+2018-06-28 11:11:39,911 TRACE com.epam.paymentsystems.algorithms.luhn.LuhnEven   - In the card even count digit - 16
+2018-06-28 11:11:39,911 TRACE com.epam.paymentsystems.algorithms.luhn.LuhnEven   - Array source number is - [2, 2, 0, 4, 3, 7, 3, 6, 3, 7, 5, 3, 4, 5, 2, 0]
+2018-06-28 11:11:39,911 TRACE com.epam.paymentsystems.algorithms.luhn.LuhnEven   - Array change number is forming - [4, 2, 0, 4, 6, 7, 6, 6, 6, 7, 1, 3, 8, 5, 4, 0]
+2018-06-28 11:11:39,911 TRACE .epam.paymentsystems.algorithms.luhn.LuhnAlgorithm - The sum change number - 69
+2018-06-28 11:11:39,911 TRACE .epam.paymentsystems.algorithms.luhn.LuhnAlgorithm - The check digit - 1
+2018-06-28 11:11:39,911 DEBUG com.epam.paymentsystems.cards.Card                 - The generated card number has the next number - [2, 2, 0, 4, 3, 7, 3, 6, 3, 7, 5, 3, 4, 5, 2, 1]

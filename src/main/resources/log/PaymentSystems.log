@@ -1,0 +1,17 @@
+2018-06-28 15:58:50,604 DEBUG com.epam.paymentsystems.cards.Card                 - Formation a bank identifier
+2018-06-28 15:58:50,604 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the digit of payment system
+2018-06-28 15:58:50,604 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the number of type card
+2018-06-28 15:58:50,604 DEBUG com.epam.paymentsystems.cards.Card                 - Formation a unique number
+2018-06-28 15:58:50,604 DEBUG com.epam.paymentsystems.cards.Card                 - Getting of identification number
+2018-06-28 15:58:50,604 DEBUG com.epam.paymentsystems.cards.Card                 - Get identification number from GENERATOR
+2018-06-28 15:58:50,604 TRACE com.epam.paymentsystems.generators.RandomGenerator - Creating random array digits size - 13
+2018-06-28 15:58:50,604 TRACE com.epam.paymentsystems.generators.RandomGenerator - 13 random digit are generated - [9, 7, 5, 4, 9, 2, 4, 7, 4, 8, 3, 9, 8]
+2018-06-28 15:58:50,605 DEBUG com.epam.paymentsystems.cards.Card                 - Saving an identification number to the card number
+2018-06-28 15:58:50,605 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the check number
+2018-06-28 15:58:50,605 DEBUG com.epam.paymentsystems.cards.Card                 - Get and saving check digit
+2018-06-28 15:58:50,605 TRACE com.epam.paymentsystems.algorithms.luhn.LuhnEven   - In the card even count digit - 20
+2018-06-28 15:58:50,605 TRACE com.epam.paymentsystems.algorithms.luhn.LuhnEven   - Array source number is - [2, 2, 0, 4, 3, 7, 9, 7, 5, 4, 9, 2, 4, 7, 4, 8, 3, 9, 8, 0]
+2018-06-28 15:58:50,605 TRACE com.epam.paymentsystems.algorithms.luhn.LuhnEven   - Array change number is forming - [4, 2, 0, 4, 6, 7, 9, 7, 1, 4, 9, 2, 8, 7, 8, 8, 6, 9, 7, 0]
+2018-06-28 15:58:50,605 TRACE .epam.paymentsystems.algorithms.luhn.LuhnAlgorithm - The sum change number - 108
+2018-06-28 15:58:50,605 TRACE .epam.paymentsystems.algorithms.luhn.LuhnAlgorithm - The check digit - 2
+2018-06-28 15:58:50,605 DEBUG com.epam.paymentsystems.cards.Card                 - The generated card number has the next number - [2, 2, 0, 4, 3, 7, 9, 7, 5, 4, 9, 2, 4, 7, 4, 8, 3, 9, 8, 2]

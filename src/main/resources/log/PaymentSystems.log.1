@@ -1,0 +1,40 @@
+2018-06-28 15:58:50,590 DEBUG com.epam.paymentsystems.cards.FactoryCard          - Create "MIR_CLASSIC" card with count digit - 20
+2018-06-28 15:58:50,591 DEBUG com.epam.paymentsystems.cards.Card                 - Initializing the card number
+2018-06-28 15:58:50,591 DEBUG com.epam.paymentsystems.cards.Card                 - Formation a bank identifier
+2018-06-28 15:58:50,591 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the digit of payment system
+2018-06-28 15:58:50,591 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the number of type card
+2018-06-28 15:58:50,591 DEBUG com.epam.paymentsystems.cards.Card                 - Formation a unique number
+2018-06-28 15:58:50,591 DEBUG com.epam.paymentsystems.cards.Card                 - Getting of identification number
+2018-06-28 15:58:50,591 DEBUG com.epam.paymentsystems.cards.Card                 - Get identification number from GENERATOR
+2018-06-28 15:58:50,592 TRACE com.epam.paymentsystems.generators.RandomGenerator - Creating random array digits size - 13
+2018-06-28 15:58:50,592 TRACE com.epam.paymentsystems.generators.RandomGenerator - 13 random digit are generated - [4, 7, 4, 5, 3, 0, 4, 7, 3, 5, 0, 6, 5]
+2018-06-28 15:58:50,592 DEBUG com.epam.paymentsystems.cards.Card                 - Saving an identification number to the card number
+2018-06-28 15:58:50,592 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the check number
+2018-06-28 15:58:50,592 DEBUG com.epam.paymentsystems.cards.Card                 - Get and saving check digit
+2018-06-28 15:58:50,592 TRACE com.epam.paymentsystems.algorithms.luhn.LuhnEven   - In the card even count digit - 20
+2018-06-28 15:58:50,592 TRACE com.epam.paymentsystems.algorithms.luhn.LuhnEven   - Array source number is - [2, 2, 2, 0, 4, 5, 4, 7, 4, 5, 3, 0, 4, 7, 3, 5, 0, 6, 5, 0]
+2018-06-28 15:58:50,592 TRACE com.epam.paymentsystems.algorithms.luhn.LuhnEven   - Array change number is forming - [4, 2, 4, 0, 8, 5, 8, 7, 8, 5, 6, 0, 8, 7, 6, 5, 0, 6, 1, 0]
+2018-06-28 15:58:50,592 TRACE .epam.paymentsystems.algorithms.luhn.LuhnAlgorithm - The sum change number - 90
+2018-06-28 15:58:50,592 TRACE .epam.paymentsystems.algorithms.luhn.LuhnAlgorithm - The check digit - 0
+2018-06-28 15:58:50,592 DEBUG com.epam.paymentsystems.cards.Card                 - The generated card number has the next number - [2, 2, 2, 0, 4, 5, 4, 7, 4, 5, 3, 0, 4, 7, 3, 5, 0, 6, 5, 0]
+2018-06-28 15:58:50,592 DEBUG com.epam.paymentsystems.cards.FactoryCard          - Create "MIR_PREMIUM" card with count digit - 20
+2018-06-28 15:58:50,592 DEBUG com.epam.paymentsystems.cards.Card                 - Initializing the card number
+2018-06-28 15:58:50,592 DEBUG com.epam.paymentsystems.cards.Card                 - Formation a bank identifier
+2018-06-28 15:58:50,592 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the digit of payment system
+2018-06-28 15:58:50,592 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the number of type card
+2018-06-28 15:58:50,592 DEBUG com.epam.paymentsystems.cards.Card                 - Formation a unique number
+2018-06-28 15:58:50,592 DEBUG com.epam.paymentsystems.cards.Card                 - Getting of identification number
+2018-06-28 15:58:50,592 DEBUG com.epam.paymentsystems.cards.Card                 - Get identification number from GENERATOR
+2018-06-28 15:58:50,592 TRACE com.epam.paymentsystems.generators.RandomGenerator - Creating random array digits size - 13
+2018-06-28 15:58:50,592 TRACE com.epam.paymentsystems.generators.RandomGenerator - 13 random digit are generated - [8, 8, 0, 6, 7, 2, 1, 7, 7, 9, 3, 4, 2]
+2018-06-28 15:58:50,592 DEBUG com.epam.paymentsystems.cards.Card                 - Saving an identification number to the card number
+2018-06-28 15:58:50,592 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the check number
+2018-06-28 15:58:50,592 DEBUG com.epam.paymentsystems.cards.Card                 - Get and saving check digit
+2018-06-28 15:58:50,592 TRACE com.epam.paymentsystems.algorithms.luhn.LuhnEven   - In the card even count digit - 20
+2018-06-28 15:58:50,592 TRACE com.epam.paymentsystems.algorithms.luhn.LuhnEven   - Array source number is - [2, 2, 2, 0, 4, 5, 8, 8, 0, 6, 7, 2, 1, 7, 7, 9, 3, 4, 2, 0]
+2018-06-28 15:58:50,592 TRACE com.epam.paymentsystems.algorithms.luhn.LuhnEven   - Array change number is forming - [4, 2, 4, 0, 8, 5, 7, 8, 0, 6, 5, 2, 2, 7, 5, 9, 6, 4, 4, 0]
+2018-06-28 15:58:50,593 TRACE .epam.paymentsystems.algorithms.luhn.LuhnAlgorithm - The sum change number - 88
+2018-06-28 15:58:50,595 TRACE .epam.paymentsystems.algorithms.luhn.LuhnAlgorithm - The check digit - 2
+2018-06-28 15:58:50,595 DEBUG com.epam.paymentsystems.cards.Card                 - The generated card number has the next number - [2, 2, 2, 0, 4, 5, 8, 8, 0, 6, 7, 2, 1, 7, 7, 9, 3, 4, 2, 2]
+2018-06-28 15:58:50,595 DEBUG com.epam.paymentsystems.cards.FactoryCard          - Create "MIR_DEBIT" card with count digit - 20
+2018-06-28 15:58:50,595 DEBUG com.epam.paymentsystems.cards.Card                 - Initializing the card number
